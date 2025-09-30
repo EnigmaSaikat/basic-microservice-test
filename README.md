@@ -122,3 +122,7 @@ docker-compose up -d
 Verify:
 - http://localhost:8081/api/products
 - http://localhost:8082/api/orders
+
+
+
+my ethical hckrt
