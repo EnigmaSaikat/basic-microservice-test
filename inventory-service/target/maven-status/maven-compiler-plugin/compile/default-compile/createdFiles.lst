@@ -1,0 +1,5 @@
+com\example\inventory\controller\ProductController.class
+com\example\inventory\service\ProductService.class
+com\example\inventory\model\Product.class
+com\example\inventory\InventoryServiceApplication.class
+com\example\inventory\repository\InMemoryProductRepository.class
