@@ -49,12 +49,13 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: saikadas1998@gmail.com
-          password: test_123
+          secure: false
+          ignore_cert: false
+          username: saikat.j.das@gmail.com
+          password: mxgd aufu saml rbyl
           subject: "[Branch CI] ${{ github.repository }} ${{ github.ref_name }} - test:${{ needs.test.result }} pr:${{ needs.create-pr-and-merge.result }}"
-          to: saikat.j.das@gmail.com, saikatdasmalda0@gmail.com
-          from: saikadas1998@gmail.com
-          secure: true
+          to:  saikatdasmalda0@gmail.com
+          from: saikat.j.das@gmail.com
           body: |
             Repository: ${{ github.repository }}
             Branch: ${{ github.ref_name }}
